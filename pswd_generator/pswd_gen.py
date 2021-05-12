@@ -1,9 +1,18 @@
 import generate
 import set_print
+import document
 
 if __name__ == '__main__':
-    print('Example: 7_123_Y')
-    user_inp = input('Enter as shown: ')
+    while True:    
+        print('Example: 7_123_Y')
+        print("Enter your string or type 'doc' for docs and 'exit' to ofc, exit!")
+        user_inp = input('Your Input here : ')
+        if user_inp == 'exit':
+            exit()
+        elif user_inp == 'doc':
+            document.printDoc()
+            continue
+        break
     underscore = False
     if '_' not in user_inp:
         print('ERROR[T=00]: Enter underscores to seperate the parts!')
