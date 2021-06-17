@@ -9,8 +9,3 @@
   2. Operations : '+', '-', 'x', '/', '%', '^', 'log(x)', '='.
   3. Functions such as backspace and clear.
   4. Printing step-by-step instructions on console.
-
-### What's yet to be added :
-  - [ ] Adding decimal readability for operations.
-  - [ ] Displaying both numbers with the operation symbol.
-  - [ ] Sending the printing to another text file at each run.
